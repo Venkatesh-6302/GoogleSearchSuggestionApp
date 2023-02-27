@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.logo {
+  width: 350px;
+}
+.search-container {
+  display: flex;
+}
+.search-icon {
+  width: 25px;
+}
+.search-input {
+  border-width: 0px;
+  background-color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  min-width: 150px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+.search-suggestion-container {
+  border-radius: 10px;
+  min-width: 500px;
+  padding: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}

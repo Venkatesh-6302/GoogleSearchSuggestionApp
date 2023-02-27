@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.list-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.suggestion {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.arrow {
+  width: 25px;
+  height: 25px;
+}
+.btn {
+  background-color: transparent;
+  border-width: 0px;
+}
